@@ -1,0 +1,12 @@
+.DS_Store
+.gradle
+.idea
+Application/Application.iml
+Application/build/
+Shared/Shared.iml
+Shared/build/
+Wearable/Wearable.iml
+Wearable/build/
+android-XYZTouristAttractions.iml
+build/
+local.properties
