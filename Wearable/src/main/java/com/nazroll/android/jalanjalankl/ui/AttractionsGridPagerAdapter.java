@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.ui;
+package com.nazroll.android.jalanjalankl.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -39,16 +39,16 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.xyztouristattractions.R;
-import com.example.android.xyztouristattractions.common.Attraction;
-import com.example.android.xyztouristattractions.common.Constants;
-import com.example.android.xyztouristattractions.service.UtilityService;
+import com.nazroll.android.jalanjalankl.R;
+import com.nazroll.android.jalanjalankl.common.Attraction;
+import com.nazroll.android.jalanjalankl.common.Constants;
+import com.nazroll.android.jalanjalankl.service.UtilityService;
 
 import java.util.ArrayList;
 
 /**
  * This adapter backs the main GridViewPager component found in
- * {@link com.example.android.xyztouristattractions.ui.AttractionsActivity}.
+ * {@link com.nazroll.android.jalanjalankl.ui.AttractionsActivity}.
  */
 public class AttractionsGridPagerAdapter extends GridPagerAdapter
         implements GridViewPager.OnPageChangeListener {

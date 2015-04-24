@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.common;
+package com.nazroll.android.jalanjalankl.common;
 
 import android.graphics.Bitmap;
 import android.net.Uri;

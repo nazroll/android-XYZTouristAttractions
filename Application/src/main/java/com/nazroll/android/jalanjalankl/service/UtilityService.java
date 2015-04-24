@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.service;
+package com.nazroll.android.jalanjalankl.service;
 
 import android.app.IntentService;
 import android.app.Notification;
@@ -31,12 +31,12 @@ import android.util.Log;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.example.android.xyztouristattractions.R;
-import com.example.android.xyztouristattractions.common.Attraction;
-import com.example.android.xyztouristattractions.common.Constants;
-import com.example.android.xyztouristattractions.common.Utils;
-import com.example.android.xyztouristattractions.provider.TouristAttractions;
-import com.example.android.xyztouristattractions.ui.DetailActivity;
+import com.nazroll.android.jalanjalankl.R;
+import com.nazroll.android.jalanjalankl.common.Attraction;
+import com.nazroll.android.jalanjalankl.common.Constants;
+import com.nazroll.android.jalanjalankl.common.Utils;
+import com.nazroll.android.jalanjalankl.provider.TouristAttractions;
+import com.nazroll.android.jalanjalankl.ui.DetailActivity;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.FusedLocationProviderApi;
@@ -59,7 +59,7 @@ import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
-import static com.example.android.xyztouristattractions.provider.TouristAttractions.ATTRACTIONS;
+import static com.nazroll.android.jalanjalankl.provider.TouristAttractions.ATTRACTIONS;
 import static com.google.android.gms.location.LocationServices.FusedLocationApi;
 import static com.google.android.gms.location.LocationServices.GeofencingApi;
 

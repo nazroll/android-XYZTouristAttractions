@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.ui;
+package com.nazroll.android.jalanjalankl.ui;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -27,7 +27,7 @@ import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 
-import com.example.android.xyztouristattractions.R;
+import com.nazroll.android.jalanjalankl.R;
 
 /**
  * The tourist attraction detail activity screen which contains the details of

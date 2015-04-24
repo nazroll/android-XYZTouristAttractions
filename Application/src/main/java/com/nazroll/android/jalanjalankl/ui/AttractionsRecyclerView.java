@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.ui;
+package com.nazroll.android.jalanjalankl.ui;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

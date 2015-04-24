@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.ui;
+package com.nazroll.android.jalanjalankl.ui;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -34,12 +34,12 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.example.android.xyztouristattractions.R;
-import com.example.android.xyztouristattractions.common.Attraction;
-import com.example.android.xyztouristattractions.common.Constants;
-import com.example.android.xyztouristattractions.common.Utils;
-import com.example.android.xyztouristattractions.provider.TouristAttractions;
-import com.example.android.xyztouristattractions.service.UtilityService;
+import com.nazroll.android.jalanjalankl.R;
+import com.nazroll.android.jalanjalankl.common.Attraction;
+import com.nazroll.android.jalanjalankl.common.Constants;
+import com.nazroll.android.jalanjalankl.common.Utils;
+import com.nazroll.android.jalanjalankl.provider.TouristAttractions;
+import com.nazroll.android.jalanjalankl.service.UtilityService;
 import com.google.android.gms.location.FusedLocationProviderApi;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.maps.android.SphericalUtil;
@@ -48,12 +48,12 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import static com.example.android.xyztouristattractions.provider.TouristAttractions.ATTRACTIONS;
+import static com.nazroll.android.jalanjalankl.provider.TouristAttractions.ATTRACTIONS;
 
 /**
  * The main tourist attraction fragment which contains a list of attractions
  * sorted by distance (contained inside
- * {@link com.example.android.xyztouristattractions.ui.AttractionListActivity}).
+ * {@link com.nazroll.android.jalanjalankl.ui.AttractionListActivity}).
  */
 public class AttractionListFragment extends Fragment {
 

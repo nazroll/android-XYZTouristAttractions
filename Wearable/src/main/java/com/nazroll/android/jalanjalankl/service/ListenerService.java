@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.service;
+package com.nazroll.android.jalanjalankl.service;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -24,10 +24,10 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.util.Log;
 
-import com.example.android.xyztouristattractions.R;
-import com.example.android.xyztouristattractions.common.Constants;
-import com.example.android.xyztouristattractions.common.Utils;
-import com.example.android.xyztouristattractions.ui.AttractionsActivity;
+import com.nazroll.android.jalanjalankl.R;
+import com.nazroll.android.jalanjalankl.common.Constants;
+import com.nazroll.android.jalanjalankl.common.Utils;
+import com.nazroll.android.jalanjalankl.ui.AttractionsActivity;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.data.FreezableUtils;

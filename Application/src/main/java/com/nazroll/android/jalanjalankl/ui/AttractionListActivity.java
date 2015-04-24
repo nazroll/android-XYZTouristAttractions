@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.ui;
+package com.nazroll.android.jalanjalankl.ui;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
@@ -23,9 +23,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.example.android.xyztouristattractions.R;
-import com.example.android.xyztouristattractions.common.Utils;
-import com.example.android.xyztouristattractions.service.UtilityService;
+import com.nazroll.android.jalanjalankl.R;
+import com.nazroll.android.jalanjalankl.common.Utils;
+import com.nazroll.android.jalanjalankl.service.UtilityService;
 
 /**
  * The main tourist attraction activity screen which contains a list of

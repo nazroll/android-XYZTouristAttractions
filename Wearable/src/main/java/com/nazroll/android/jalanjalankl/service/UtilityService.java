@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.service;
+package com.nazroll.android.jalanjalankl.service;
 
 import android.app.IntentService;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
 
-import com.example.android.xyztouristattractions.common.Constants;
-import com.example.android.xyztouristattractions.common.Utils;
+import com.nazroll.android.jalanjalankl.common.Constants;
+import com.nazroll.android.jalanjalankl.common.Utils;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.wearable.Wearable;

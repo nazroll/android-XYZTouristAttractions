@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.ui;
+package com.nazroll.android.jalanjalankl.ui;
 
 import android.app.TaskStackBuilder;
 import android.content.Intent;
@@ -35,21 +35,21 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.example.android.xyztouristattractions.R;
-import com.example.android.xyztouristattractions.common.Attraction;
-import com.example.android.xyztouristattractions.common.Constants;
-import com.example.android.xyztouristattractions.common.Utils;
+import com.nazroll.android.jalanjalankl.R;
+import com.nazroll.android.jalanjalankl.common.Attraction;
+import com.nazroll.android.jalanjalankl.common.Constants;
+import com.nazroll.android.jalanjalankl.common.Utils;
 import com.google.android.gms.maps.model.LatLng;
 
 import java.util.List;
 import java.util.Map;
 
-import static com.example.android.xyztouristattractions.provider.TouristAttractions.ATTRACTIONS;
+import static com.nazroll.android.jalanjalankl.provider.TouristAttractions.ATTRACTIONS;
 
 /**
  * The tourist attraction detail fragment which contains the details of a
  * a single attraction (contained inside
- * {@link com.example.android.xyztouristattractions.ui.DetailActivity}).
+ * {@link com.nazroll.android.jalanjalankl.ui.DetailActivity}).
  */
 public class DetailFragment extends Fragment {
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.provider;
+package com.nazroll.android.jalanjalankl.provider;
 
 import android.net.Uri;
 
-import com.example.android.xyztouristattractions.BuildConfig;
-import com.example.android.xyztouristattractions.common.Attraction;
+import com.nazroll.android.jalanjalankl.BuildConfig;
+import com.nazroll.android.jalanjalankl.common.Attraction;
 import com.google.android.gms.location.Geofence;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.maps.android.SphericalUtil;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.xyztouristattractions.ui;
+package com.nazroll.android.jalanjalankl.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -34,11 +34,11 @@ import android.view.WindowInsets;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
-import com.example.android.xyztouristattractions.R;
-import com.example.android.xyztouristattractions.common.Attraction;
-import com.example.android.xyztouristattractions.common.Constants;
-import com.example.android.xyztouristattractions.common.Utils;
-import com.example.android.xyztouristattractions.service.UtilityService;
+import com.nazroll.android.jalanjalankl.R;
+import com.nazroll.android.jalanjalankl.common.Attraction;
+import com.nazroll.android.jalanjalankl.common.Constants;
+import com.nazroll.android.jalanjalankl.common.Utils;
+import com.nazroll.android.jalanjalankl.service.UtilityService;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.maps.model.LatLng;
